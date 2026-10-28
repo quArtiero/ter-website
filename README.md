@@ -13,6 +13,19 @@ Static preview of the redesigned [Tufts Electric Racing](https://sites.tufts.edu
 
 Open `index.html` in a browser, or serve the folder with any static server. The pages are responsive (desktop and phone) and share `css/site.css` and `js/site.js`.
 
+## Motion
+
+All motion is plain CSS and vanilla JS (no libraries), and it switches off under `prefers-reduced-motion`:
+
+- sections and cards reveal as they scroll into view (staggered)
+- the stats and the countdown count up when they appear
+- partner names run in a looping marquee (pauses on hover)
+- the TER27 section has a scroll-linked scene: a large "27" and the chassis photo rise as you scroll
+- a wordmark strip runs above the footer
+- on phones the menu opens as a full-screen overlay
+
+The hero is built to take a looping background video later (`.hero-figure`); it uses a photo until the team picks footage.
+
 ## Content and sources
 
 - Sponsorship tiers, chiefs, budget and photos: 2026–27 Sponsor Handbook
